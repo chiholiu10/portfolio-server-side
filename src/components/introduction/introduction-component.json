@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_introduction_introduction_components",
+  "info": {
+    "displayName": "introduction",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content_block": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-array.array"
+    }
+  }
+}

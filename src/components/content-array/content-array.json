@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_content_array_content_arrays",
+  "info": {
+    "displayName": "content-array",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "displayName": "array",
+      "type": "component",
+      "repeatable": true,
+      "component": "content-array.array"
+    }
+  }
+}

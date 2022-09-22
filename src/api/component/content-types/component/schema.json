@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "components",
+  "info": {
+    "singularName": "component",
+    "pluralName": "components",
+    "displayName": "component",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "component": {
+      "displayName": "component_array",
+      "type": "component",
+      "repeatable": true,
+      "component": "component-array.component-array"
+    }
+  }
+}

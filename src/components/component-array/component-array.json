@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_component_array_component_arrays",
+  "info": {
+    "displayName": "component_array",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "context": {
+      "type": "text"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-array.array"
+    },
+    "image": {
+      "type": "richtext"
+    }
+  }
+}

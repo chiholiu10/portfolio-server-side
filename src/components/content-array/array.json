@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_array_arrays",
+  "info": {
+    "displayName": "array",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "richtext"
+    }
+  }
+}

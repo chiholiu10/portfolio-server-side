@@ -2,7 +2,7 @@ const path = require('path');
 const { config } = require('process');
 
 module.exports = ({ env }) => {
-  if ('NODE_ENV' === 'production') {
+  if (env('NODE_ENV') === 'production') {
     return {
       connection: {
         client: 'postgres',
@@ -12,8 +12,12 @@ module.exports = ({ env }) => {
           database: config.database,
           user: config.user,
           password: config.password
+        },
+        ssl: {
+          rejectUnauthorized: false,
         }
-      }
+      },
+      debug: false
     };
   }
   return {

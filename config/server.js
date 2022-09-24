@@ -6,4 +6,3 @@ module.exports = ({ env }) => ({
   },
 });
 
-console.log('hello world');

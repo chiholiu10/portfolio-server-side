@@ -4,10 +4,13 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
+    "develop": "npx kill-port 1337 && strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "build production": "NODE_ENV=production npm run build",
+    "start production": "NODE_ENV=production npm start",
+    "use new database": "heroku config:set NODE_ENV=production"
   },
   "dependencies": {
     "@strapi/plugin-graphql": "^4.1.7",

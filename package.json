@@ -5,7 +5,7 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "npx kill-port 1337 && strapi develop",
-    "start": "strapi start",
+    "start": "npx kill-port 1337 && strapi start",
     "build": "strapi build",
     "strapi": "strapi",
     "push to heroku": "git push heroku main",
@@ -14,10 +14,10 @@
     "use new database": "heroku config:set NODE_ENV=production"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.1.7",
+    "@strapi/plugin-graphql": "^4.4.1",
     "@strapi/plugin-i18n": "4.4.1",
     "@strapi/plugin-users-permissions": "4.4.1",
-    "@strapi/provider-upload-cloudinary": "^4.1.9",
+    "@strapi/provider-upload-cloudinary": "^4.4.1",
     "@strapi/strapi": "^4.4.1",
     "better-sqlite3": "^7.4.6",
     "pg": "^8.8.0",

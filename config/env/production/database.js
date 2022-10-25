@@ -15,6 +15,6 @@ module.exports = ({ env }) => ({
         rejectUnauthorized: false
       },
     },
-    debug: true,
+    debug: false,
   },
 });
